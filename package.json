@@ -1,0 +1,38 @@
+{
+  "name": "ats-job-feed",
+  "version": "0.1.0",
+  "description": "Open jobs from Greenhouse, Lever, Ashby and Workable job boards in one schema. Uses the public job-board APIs. No dependencies.",
+  "keywords": [
+    "greenhouse",
+    "lever",
+    "ashby",
+    "workable",
+    "ats",
+    "jobs",
+    "job-board",
+    "job-feed",
+    "careers",
+    "scraper"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "ats-job-feed": "bin/ats-job-feed.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  }
+}
