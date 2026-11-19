@@ -192,6 +192,10 @@ without running anything yourself.
 - **Ashby postings marked unlisted** are left out, to match the public board.
 - **The ATS APIs can change.** If a vendor changes or withdraws its public API, that adapter fails until it is updated.
 
+How these public APIs behave at scale (dead boards, failures and rate limits per ATS, from a crawl of 30,928 board
+addresses on 18-19 Nov 2026, with a CSV) is measured in the
+[ATS job posting API crawl report](https://scrapetools.scaleturn.com/ats-job-posting-api-crawl-data.html?utm_source=github&utm_medium=readme&utm_campaign=rx-001).
+
 ## Tests
 
 ```bash
